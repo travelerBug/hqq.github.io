@@ -153,18 +153,5 @@ personalInfo: {
 }
 ```
 
-### 发布的时候 string.replaceAll 方法缺失
-> 解决方法:
-> 写string.replaceAll的扩展方法
-```ts
-/*
- * string.replaceAll()---字符替换所有指定字符
- * @parameter： FindText--原文本要替换值
- * @parameter： RepText--将要替换值
- */
-String.prototype.replaceAll = function (FindText, RepText) {
-  var regExp = new RegExp(FindText, "g");
-  return this.replace(regExp, RepText);
-}
-```
+
 
