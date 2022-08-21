@@ -6,12 +6,12 @@ on:
      - main 
 jobs:
   check-bats-version:
-    #运行在最新版ubuntu系统中
+    # 运行在最新版ubuntu系统中
     runs-on:
       ubuntu-latest
       #步骤合集
     steps:
-      #拉取 github  仓库代码
+      # 拉取 github  仓库代码
       - uses: actions/checkout@v3
       #设置node环境
       - uses: actions/setup-node@v3
