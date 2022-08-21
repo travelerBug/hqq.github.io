@@ -3,11 +3,14 @@ name: github-actions
 on: push
   
 jobs:
-  check-bats-version:
-    # 运行在最新版ubuntu系统中
+  # 任务ID
+  build:
+    # 运行环境
     runs-on: ubuntu-latest
-    # 步骤合集
+    # 步骤
     steps:
+        # 使用别人的action
+      - uses: actions/checkout@v2
       - name: Install dependencies
        run: npm i pnpm -g
        run: pnpm install
@@ -18,6 +21,6 @@ jobs:
        run: echo Hello, world!
  
       # 执行部署
-      - name: 部署
+      # - name: 部署
       # 这个action 会根据配置自动推送代码到指定分支
-      uses: 
+      # uses: 
