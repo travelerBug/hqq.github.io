@@ -21,3 +21,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Install and Build 🔧 # 该步骤的名称
+        run: | # 该步骤运行的命令或者 action
+          npm i pnpm -g
+          pnpm install
+          pnpm build
