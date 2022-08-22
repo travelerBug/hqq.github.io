@@ -27,5 +27,5 @@ jobs:
           npm i pnpm -g
           pnpm install
       - name: 构建
-       run:  
+       run: | 
         pnpm build
