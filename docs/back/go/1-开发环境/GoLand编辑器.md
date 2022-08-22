@@ -12,5 +12,6 @@ GoLand 官网下载地址：https://www.jetbrains.com/go/
 
 2.习惯vscode快捷键可以下载VSCode keymap
 
-3.
+3.cmder
 
+![image-20220817154134892](https://downloadflies.com//blog-img/image-20220817154134892.png)
