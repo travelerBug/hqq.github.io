@@ -5,6 +5,15 @@ function compareFiles(a, b) {
   return a.name.localeCompare(b.name, 'zh-CN', { numeric: true })
   // return a.name > b.name ? 1 : -1
 }
+/*
+ * string.replaceAll()---字符替换所有指定字符
+ * @parameter： FindText--原文本要替换值
+ * @parameter： RepText--将要替换值
+ */
+String.prototype.replaceAll = function (FindText, RepText) {
+  var regExp = new RegExp(FindText, "g");
+  return this.replace(regExp, RepText);
+}
 // 按照 vuepress '分组侧边栏'的规范生成单个配置
 // https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%88%86%E7%BB%84
 function toSidebarOption(tree = []) {
