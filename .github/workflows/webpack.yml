@@ -26,3 +26,9 @@ jobs:
           npm i pnpm -g
           pnpm install
           pnpm build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.SECRET_INTERVIEW }} # 指定密钥
+          BRANCH: page # 指定推送到的远程分支
+          FOLDER: build # 指定构建之后的产物要推送哪个目录的代码
