@@ -95,12 +95,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "updatedTime": null
-  },
   "readingTime": {
     "minutes": 17,
     "words": 3985
   },
   "filePathRelative": "posts/2021-04-26-pc-algorithm.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

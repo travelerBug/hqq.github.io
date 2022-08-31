@@ -31,12 +31,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "updatedTime": null
-  },
   "readingTime": {
     "minutes": 3,
     "words": 716
   },
   "filePathRelative": "back/go/1-开发环境/配置GOPATH.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

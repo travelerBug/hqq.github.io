@@ -68,12 +68,22 @@ export const data = {
       ]
     }
   ],
-  "git": {
-    "updatedTime": null
-  },
   "readingTime": {
     "minutes": 9,
     "words": 2037
   },
   "filePathRelative": "back/go/2-go基础/1-语言的主要特征.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

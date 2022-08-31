@@ -45,12 +45,22 @@ export const data = {
       ]
     }
   ],
-  "git": {
-    "updatedTime": null
-  },
   "readingTime": {
     "minutes": 4,
     "words": 699
   },
   "filePathRelative": "back/go/3-流程控制/2-条件语句switch.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

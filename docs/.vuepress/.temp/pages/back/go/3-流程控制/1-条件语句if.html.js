@@ -64,12 +64,22 @@ export const data = {
       ]
     }
   ],
-  "git": {
-    "updatedTime": null
-  },
   "readingTime": {
     "minutes": 4,
     "words": 812
   },
   "filePathRelative": "back/go/3-流程控制/1-条件语句if.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

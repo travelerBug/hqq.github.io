@@ -17,6 +17,23 @@ export default {
       children: getContent("/frontend/vue/")
     }
   ],
+  "/frontend/cocos": [
+    {
+      text: "cocos ceator",
+      icon: "note",
+      // prefix: "/frontend/vue/",
+      children: getContent("/frontend/cocos/")
+    }
+  ],
+
+  "/tools/typora": [
+    {
+      text: "typora",
+      icon: "note",
+      // prefix: "/frontend/vue/",
+      children: getContent("/tools/typora/")
+    }
+  ],
 }
 
 // export default sidebar([

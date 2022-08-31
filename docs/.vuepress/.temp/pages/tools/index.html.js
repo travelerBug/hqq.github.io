@@ -5,15 +5,24 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "title": "开发工具",
-    "index": true,
     "category": [
       "使用指南"
     ]
   },
   "excerpt": "",
   "headers": [],
-  "git": {
-    "updatedTime": null
-  },
   "filePathRelative": "tools/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

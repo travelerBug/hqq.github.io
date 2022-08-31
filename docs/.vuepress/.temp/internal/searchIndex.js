@@ -21,6 +21,27 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "cocos笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/graphics/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "开发工具",
+    "headers": [],
+    "path": "/tools/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "关于博客的碎碎念",
     "subtitle": "部署、优化以及乱七八糟的事",
     "headers": [
@@ -104,61 +125,6 @@ export const searchIndex = [
     "subtitle": "Happy New Year 2021",
     "headers": [],
     "path": "/post/2021/01/01/new-year/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "凌乱的 PyTorch 笔记",
-    "subtitle": "PyTorch 能有什么坏心思呢",
-    "headers": [
-      {
-        "level": 2,
-        "title": "名不符实的损失函数",
-        "slug": "名不符实的损失函数",
-        "children": [
-          {
-            "level": 3,
-            "title": "NLL Loss",
-            "slug": "nll-loss",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cross Entropy Loss",
-            "slug": "cross-entropy-loss",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "不明觉厉的优化器实现",
-        "slug": "不明觉厉的优化器实现",
-        "children": [
-          {
-            "level": 3,
-            "title": "Momentum",
-            "slug": "momentum",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "奇奇怪怪的初始化器",
-        "slug": "奇奇怪怪的初始化器",
-        "children": [
-          {
-            "level": 3,
-            "title": "Kaiming Init",
-            "slug": "kaiming-init",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/post/2021/01/28/lets-talk-about-pytorch/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
@@ -942,13 +908,6 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
-    "title": "开发工具",
-    "headers": [],
-    "path": "/tools/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "后端笔记",
     "headers": [],
     "path": "/back/go/",
@@ -963,6 +922,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "cocos笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/frontend/cocos/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/frontend/vue/1-vue3%E7%AE%80%E4%BB%8B.html",
@@ -973,6 +946,181 @@ export const searchIndex = [
     "title": "Vue",
     "headers": [],
     "path": "/frontend/vue/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "向量点乘",
+    "headers": [
+      {
+        "level": 3,
+        "title": "几何意义",
+        "slug": "几何意义",
+        "children": []
+      }
+    ],
+    "path": "/graphics/%E5%90%91%E9%87%8F/%E7%82%B9%E4%B9%98.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "使用PicGo配置七牛云图床",
+    "headers": [
+      {
+        "level": 2,
+        "title": "准备工作",
+        "slug": "准备工作",
+        "children": [
+          {
+            "level": 4,
+            "title": "1. 1 下载PicGo安装",
+            "slug": "_1-1-下载picgo安装",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.2 七牛云配置图床",
+            "slug": "_1-2-七牛云配置图床",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.3 注册账号",
+            "slug": "_1-3-注册账号",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.4 创建云存储空间",
+            "slug": "_1-4-创建云存储空间",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.5 给自己的域名添加二级域名",
+            "slug": "_1-5-给自己的域名添加二级域名",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/tools/typora/1-%E4%BD%BF%E7%94%A8pic%E9%85%8D%E7%BD%AE%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1.插入行间公式",
+    "headers": [],
+    "path": "/tools/typora/2-%E6%B7%BB%E5%8A%A0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "这是一级标题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、标题",
+        "slug": "一、标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "这是二级标题",
+        "slug": "这是二级标题",
+        "children": [
+          {
+            "level": 3,
+            "title": "这是三级标题",
+            "slug": "这是三级标题",
+            "children": [
+              {
+                "level": 4,
+                "title": "这是四级标题",
+                "slug": "这是四级标题",
+                "children": [
+                  {
+                    "level": 5,
+                    "title": "这是五级标题",
+                    "slug": "这是五级标题",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、字体",
+        "slug": "二、字体",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、引用",
+        "slug": "三、引用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、分割线",
+        "slug": "四、分割线",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、图片",
+        "slug": "五、图片",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、超链接",
+        "slug": "六、超链接",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、列表",
+        "slug": "七、列表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、表格",
+        "slug": "八、表格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、代码",
+        "slug": "九、代码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "十、流程图",
+        "slug": "十、流程图",
+        "children": []
+      }
+    ],
+    "path": "/tools/typora/3-%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "cocos笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/tools/typora/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2028,6 +2176,107 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1. 函数定义",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. golang函数特点：",
+        "slug": "_1-1-1-golang函数特点",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.1.2. 函数声明：",
+        "slug": "_1-1-2-函数声明",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/1-%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 参数",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 函数参数",
+        "slug": "_1-1-1-函数参数",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/2-%E5%8F%82%E6%95%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 函数返回值",
+        "slug": "_1-1-1-函数返回值",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/3-%E8%BF%94%E5%9B%9E%E5%80%BC.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 匿名函数",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 匿名函数",
+        "slug": "_1-1-1-匿名函数",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/4-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 闭包、递归",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 闭包详解",
+        "slug": "_1-1-1-闭包详解",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.1.2. Go的闭包",
+        "slug": "_1-1-2-go的闭包",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.1.3. Go 语言递归函数",
+        "slug": "_1-1-3-go-语言递归函数",
+        "children": [
+          {
+            "level": 4,
+            "title": "数字阶乘",
+            "slug": "数字阶乘",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "title": "1.1.4. 斐波那契数列(Fibonacci)",
+        "slug": "_1-1-4-斐波那契数列-fibonacci",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/5-%E9%97%AD%E5%8C%85,%E9%80%92%E5%BD%92.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [
       {
@@ -2173,103 +2422,86 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1. 函数定义",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.1.1. golang函数特点：",
-        "slug": "_1-1-1-golang函数特点",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "1.1.2. 函数声明：",
-        "slug": "_1-1-2-函数声明",
-        "children": []
-      }
-    ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/1-%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. 参数",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.1.1. 函数参数",
-        "slug": "_1-1-1-函数参数",
-        "children": []
-      }
-    ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/2-%E5%8F%82%E6%95%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [
       {
         "level": 3,
-        "title": "1.1.1. 函数返回值",
-        "slug": "_1-1-1-函数返回值",
+        "title": "引入第三方包",
+        "slug": "引入第三方包",
         "children": []
       }
     ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/3-%E8%BF%94%E5%9B%9E%E5%80%BC.html",
+    "path": "/back/go/5-%E5%AF%BC%E5%85%A5%E7%AC%AC%E4%B8%89%E6%96%B9%E5%8C%85/go%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%BC%95%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E5%8C%85%E6%88%96%E8%87%AA%E5%B7%B1%E5%86%99%E7%9A%84%E5%8C%85.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "1. 匿名函数",
+    "title": "Graphics",
     "headers": [
       {
         "level": 3,
-        "title": "1.1.1. 匿名函数",
-        "slug": "_1-1-1-匿名函数",
+        "title": "快速入门",
+        "slug": "快速入门",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.1 绘制矩形",
+        "slug": "_1-1-绘制矩形",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.2.绘制圆/绘制点",
+        "slug": "_1-2-绘制圆-绘制点",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.3.绘制线",
+        "slug": "_1-3-绘制线",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.4.绘制多边形边框",
+        "slug": "_1-4-绘制多边形边框",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.4.绘制多边形填充",
+        "slug": "_1-4-绘制多边形填充",
         "children": []
       }
     ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/4-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0.html",
+    "path": "/frontend/cocos/2D/Graphics%E7%BB%98%E5%9B%BE.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "1. 闭包、递归",
+    "title": "挖洞",
     "headers": [
       {
         "level": 3,
-        "title": "1.1.1. 闭包详解",
-        "slug": "_1-1-1-闭包详解",
+        "title": "效果如下：",
+        "slug": "效果如下",
         "children": []
       },
       {
         "level": 3,
-        "title": "1.1.2. Go的闭包",
-        "slug": "_1-1-2-go的闭包",
+        "title": "核心技术",
+        "slug": "核心技术",
         "children": []
       },
       {
         "level": 3,
-        "title": "1.1.3. Go 语言递归函数",
-        "slug": "_1-1-3-go-语言递归函数",
-        "children": [
-          {
-            "level": 4,
-            "title": "数字阶乘",
-            "slug": "数字阶乘",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "title": "1.1.4. 斐波那契数列(Fibonacci)",
-        "slug": "_1-1-4-斐波那契数列-fibonacci",
+        "title": "正多边形顶点位置的计算",
+        "slug": "正多边形顶点位置的计算",
         "children": []
       }
     ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/5-%E9%97%AD%E5%8C%85,%E9%80%92%E5%BD%92.html",
+    "path": "/frontend/cocos/2D/%E6%8C%96%E6%B4%9E.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2306,14 +2538,6 @@ export const searchIndex = [
     "layout": "Tags"
   },
   {
-    "title": "Deep Learning | Tags",
-    "headers": [],
-    "path": "/tags/deep-learning/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
     "title": "Machine Learning | Tags",
     "headers": [],
     "path": "/tags/machine-learning/",
@@ -2338,6 +2562,14 @@ export const searchIndex = [
     "layout": "Tags"
   },
   {
+    "title": "Deep Learning | Tags",
+    "headers": [],
+    "path": "/tags/deep-learning/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
     "title": "Home",
     "headers": [],
     "path": "/page/1/",
@@ -2354,3 +2586,16 @@ export const searchIndex = [
     "layout": "HomePage"
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

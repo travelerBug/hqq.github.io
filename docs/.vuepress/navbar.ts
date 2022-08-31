@@ -11,6 +11,10 @@ export default [
       {
         text: "Vue",
         link: "/frontend/vue",
+      },
+      {
+        text: "Cocos ceator",
+        link: "/frontend/cocos",
       }
     ]
   },
@@ -30,10 +34,11 @@ export default [
     text: "开发工具",
     prefix: "/tools/",
     children: [
-      // {
-      //   text: "Go",
-      //   link: "/tools/go",
-      // }, {
+      {
+        text: "Typora",
+        link: "/tools/typora",
+      }
+      //, {
       //   text: "Node",
       //   link: "/tools/node",
       // }

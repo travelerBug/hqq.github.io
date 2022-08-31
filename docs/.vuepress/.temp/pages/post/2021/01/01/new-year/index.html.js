@@ -19,12 +19,22 @@ export const data = {
   },
   "excerpt": "<p>太长不看版：顺位第一的新年愿望是能成为一个温暖的人类，如果这个愿望今年无法实现，那就先当一个正常一些的人类吧。</p>\n",
   "headers": [],
-  "git": {
-    "updatedTime": null
-  },
   "readingTime": {
     "minutes": 8,
     "words": 2148
   },
   "filePathRelative": "posts/2021-01-01-new-year.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

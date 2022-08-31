@@ -103,7 +103,8 @@ slice9 := arr[:len(arr)-1] //去掉切片的最后一个元素
 <div class="language-text ext-text"><pre v-pre class="language-text"><code>    var slice []type = make([]type, len)
     slice  := make([]type, len)
     slice  := make([]type, len, cap)
-</code></pre></div><p>代码：</p>
+</code></pre></div><p><img src="https://downloadflies.com//blog-img/1.jpg" alt="切片"></p>
+<p>代码：</p>
 <div class="language-go ext-go"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
 <span class="token keyword">import</span> <span class="token punctuation">(</span>
@@ -135,6 +136,7 @@ slice9 := arr[:len(arr)-1] //去掉切片的最后一个元素
     make局部slice4 ：[0 0 0 0 0 0 0 0 0 0]
     make局部slice5 ：[0 0 0 0 0 0 0 0 0 0]
 </code></pre></div><p>切片的内存布局</p>
+<p><img src="https://downloadflies.com//blog-img/image-20220718134249596-16594327870471.png" alt="切片"></p>
 <p>读写操作实际目标是底层数组，只需注意索引号的差别。</p>
 <div class="language-go ext-go"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main
 
@@ -445,6 +447,7 @@ slice9 := arr[:len(arr)-1] //去掉切片的最后一个元素
     slice b : [3] , len(b) : 1
     slice c : [3 4 5] , len(c) : 3
 </code></pre></div><h3 id="_1-1-10-数组和切片的内存布局" tabindex="-1"><a class="header-anchor" href="#_1-1-10-数组和切片的内存布局" aria-hidden="true">#</a> 1.1.10. 数组和切片的内存布局</h3>
+<p><img src="https://downloadflies.com//blog-img/image-20220718134249596.png" alt="image-20220718134249596"></p>
 <h3 id="_1-1-11-字符串和切片-string-and-slice" tabindex="-1"><a class="header-anchor" href="#_1-1-11-字符串和切片-string-and-slice" aria-hidden="true">#</a> 1.1.11. 字符串和切片（string and slice）</h3>
 <p>string底层就是一个byte的数组，因此，也可以进行切片操作。</p>
 <div class="language-go ext-go"><pre v-pre class="language-go"><code><span class="token keyword">package</span> main

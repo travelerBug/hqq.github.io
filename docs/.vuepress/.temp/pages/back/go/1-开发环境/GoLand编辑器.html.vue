@@ -7,7 +7,6 @@
 <h3 id="常用插件" tabindex="-1"><a class="header-anchor" href="#常用插件" aria-hidden="true">#</a> 常用插件</h3>
 <p>1.全家桶通用中文包Chinese Language Pack</p>
 <p>2.习惯vscode快捷键可以下载VSCode keymap</p>
-<ol start="3">
-<li></li>
-</ol>
+<p>3.cmder</p>
+<p><img src="https://downloadflies.com//blog-img/image-20220817154134892.png" alt="image-20220817154134892"></p>
 </div></template>

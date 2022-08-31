@@ -61,6 +61,10 @@ export const themeData = {
         {
           "text": "Vue",
           "link": "/frontend/vue"
+        },
+        {
+          "text": "Cocos ceator",
+          "link": "/frontend/cocos"
         }
       ]
     },
@@ -80,7 +84,12 @@ export const themeData = {
     {
       "text": "开发工具",
       "prefix": "/tools/",
-      "children": []
+      "children": [
+        {
+          "text": "Typora",
+          "link": "/tools/typora"
+        }
+      ]
     }
   ],
   "sidebar": {
@@ -228,6 +237,17 @@ export const themeData = {
                 "link": "/back/go/4-函数/5-闭包,递归.md"
               }
             ]
+          },
+          {
+            "text": "5-导入第三方包",
+            "icon": "note",
+            "collapsible": true,
+            "children": [
+              {
+                "text": "go项目中引用第三方包或自己写的包.md",
+                "link": "/back/go/5-导入第三方包/go项目中引用第三方包或自己写的包.md"
+              }
+            ]
           }
         ]
       }
@@ -240,6 +260,55 @@ export const themeData = {
           {
             "text": "1-vue3简介.md",
             "link": "/frontend/vue/1-vue3简介.md"
+          }
+        ]
+      }
+    ],
+    "/frontend/cocos": [
+      {
+        "text": "cocos ceator",
+        "icon": "note",
+        "children": [
+          {
+            "text": "2D",
+            "icon": "note",
+            "collapsible": true,
+            "children": [
+              {
+                "text": "挖洞.assets",
+                "icon": "note",
+                "collapsible": true,
+                "children": []
+              },
+              {
+                "text": "挖洞.md",
+                "link": "/frontend/cocos/2D/挖洞.md"
+              },
+              {
+                "text": "Graphics绘图.md",
+                "link": "/frontend/cocos/2D/Graphics绘图.md"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/tools/typora": [
+      {
+        "text": "typora",
+        "icon": "note",
+        "children": [
+          {
+            "text": "1-使用pic配置七牛云图床.md",
+            "link": "/tools/typora/1-使用pic配置七牛云图床.md"
+          },
+          {
+            "text": "2-添加数学公式.md",
+            "link": "/tools/typora/2-添加数学公式.md"
+          },
+          {
+            "text": "3-简单语法.md",
+            "link": "/tools/typora/3-简单语法.md"
           }
         ]
       }
@@ -293,4 +362,17 @@ export const themeData = {
   "pwaPopupButtonText": "Refresh",
   "headerImageCredit": "Image by",
   "search": true
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }
