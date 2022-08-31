@@ -1,1 +1,0 @@
-const e={key:"v-20e6a2fe",path:"/back/node/",title:"node\u7B14\u8BB0",lang:"en-US",frontmatter:{title:"node\u7B14\u8BB0",index:!0,category:["\u4F7F\u7528\u6307\u5357"]},excerpt:"",headers:[],git:{updatedTime:1661790642e3},filePathRelative:"back/node/README.md"};export{e as data};
