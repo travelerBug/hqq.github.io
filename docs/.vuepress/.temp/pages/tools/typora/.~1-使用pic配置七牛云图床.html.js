@@ -1,6 +1,6 @@
 export const data = {
-  "key": "v-9cbec116",
-  "path": "/tools/typora/1-%E4%BD%BF%E7%94%A8pic%E9%85%8D%E7%BD%AE%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A.html",
+  "key": "v-17ba4f25",
+  "path": "/tools/typora/.~1-%E4%BD%BF%E7%94%A8pic%E9%85%8D%E7%BD%AE%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A.html",
   "title": "使用PicGo配置七牛云图床",
   "lang": "en-US",
   "frontmatter": {},
@@ -48,7 +48,7 @@ export const data = {
     "minutes": 3,
     "words": 577
   },
-  "filePathRelative": "tools/typora/1-使用pic配置七牛云图床.md"
+  "filePathRelative": "tools/typora/.~1-使用pic配置七牛云图床.md"
 }
 
 if (import.meta.webpackHot) {

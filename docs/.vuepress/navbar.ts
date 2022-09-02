@@ -16,6 +16,11 @@ export default [
         text: "Cocos ceator",
         link: "/frontend/cocos",
       }
+      ,
+      {
+        text: "Html",
+        link: "/frontend/html",
+      }
     ]
   },
   {

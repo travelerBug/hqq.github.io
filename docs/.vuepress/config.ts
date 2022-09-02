@@ -9,6 +9,14 @@ export default defineUserConfig({
 
   head: [
     [
+      'meta',
+      {
+        name: 'referrer',
+        content: 'no-referrer'
+      }
+    ],
+    [
+
       "link",
       {
         rel: "icon",

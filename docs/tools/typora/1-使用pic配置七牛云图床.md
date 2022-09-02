@@ -11,7 +11,7 @@
 
 * 注：需要准备一个自己的域名
 
-![image-20220721212339949](http://downloadflies.com/blog-imgimage-20220721212339949.png)
+![image-20220721212339949](https://downloadflies.com/blog-img/blog-imgimage-20220721212339949-16621319129383.png)
 
 #### 1.3 注册账号
 

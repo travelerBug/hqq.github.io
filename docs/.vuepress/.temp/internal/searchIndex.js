@@ -35,13 +35,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "开发工具",
-    "headers": [],
-    "path": "/tools/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "关于博客的碎碎念",
     "subtitle": "部署、优化以及乱七八糟的事",
     "headers": [
@@ -908,6 +901,13 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
+    "title": "开发工具",
+    "headers": [],
+    "path": "/tools/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "后端笔记",
     "headers": [],
     "path": "/back/go/",
@@ -936,6 +936,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "前端笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/frontend/html/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/frontend/vue/1-vue3%E7%AE%80%E4%BB%8B.html",
@@ -960,6 +974,232 @@ export const searchIndex = [
       }
     ],
     "path": "/graphics/%E5%90%91%E9%87%8F/%E7%82%B9%E4%B9%98.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "cocos笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/tools/vscode/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 4,
+        "title": "Dracula Official",
+        "slug": "dracula-official",
+        "children": []
+      },
+      {
+        "level": 4,
+        "title": "One Dark Pro",
+        "slug": "one-dark-pro",
+        "children": []
+      },
+      {
+        "level": 4,
+        "title": "vscode-icons",
+        "slug": "vscode-icons",
+        "children": []
+      }
+    ],
+    "path": "/tools/vscode/%E4%B8%BB%E9%A2%98%E7%B1%BB%E6%8F%92%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 4,
+        "title": "Auto Rename Tag",
+        "slug": "auto-rename-tag",
+        "children": []
+      },
+      {
+        "level": 4,
+        "title": "vscode-styled-components",
+        "slug": "vscode-styled-components",
+        "children": []
+      },
+      {
+        "level": 4,
+        "title": "Highlight Matching Tag",
+        "slug": "highlight-matching-tag",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Vue 开发推荐",
+        "slug": "vue-开发推荐",
+        "children": [
+          {
+            "level": 4,
+            "title": "vue-component",
+            "slug": "vue-component",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Vetur",
+            "slug": "vetur",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Vue 3 Snippets",
+            "slug": "vue-3-snippets",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/tools/vscode/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 4,
+        "title": "Svg Preview",
+        "slug": "svg-preview",
+        "children": []
+      }
+    ],
+    "path": "/tools/vscode/%E5%9B%BE%E7%89%87%E7%BC%96%E8%BE%91.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "大众类插件",
+    "headers": [
+      {
+        "level": 5,
+        "title": "插件",
+        "slug": "插件",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Code Runner",
+        "slug": "code-runner",
+        "children": [
+          {
+            "level": 4,
+            "title": "Debugger for Chrome",
+            "slug": "debugger-for-chrome",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Live ServerPP",
+            "slug": "live-serverpp",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Quokka.js",
+            "slug": "quokka-js",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Template String Converter",
+            "slug": "template-string-converter",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Parameter Hints",
+            "slug": "parameter-hints",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Bracket Pair Colorizer 2",
+            "slug": "bracket-pair-colorizer-2",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "别名路径跳转",
+            "slug": "别名路径跳转",
+            "children": [
+              {
+                "level": 5,
+                "title": "配置说明",
+                "slug": "配置说明",
+                "children": []
+              },
+              {
+                "level": 5,
+                "title": "效果展示",
+                "slug": "效果展示",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "title": "路径别名智能提示",
+            "slug": "路径别名智能提示",
+            "children": [
+              {
+                "level": 5,
+                "title": "安装效果和功能",
+                "slug": "安装效果和功能",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "title": "indent-rainbow",
+            "slug": "indent-rainbow",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Code Spell Checker",
+            "slug": "code-spell-checker",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "翻译插件",
+            "slug": "翻译插件",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/tools/vscode/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "画板作图",
+        "slug": "画板作图",
+        "children": []
+      }
+    ],
+    "path": "/tools/vscode/%E7%94%BB%E5%9B%BE%E6%8F%92%E4%BB%B6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2176,107 +2416,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1. 函数定义",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.1.1. golang函数特点：",
-        "slug": "_1-1-1-golang函数特点",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "1.1.2. 函数声明：",
-        "slug": "_1-1-2-函数声明",
-        "children": []
-      }
-    ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/1-%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. 参数",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.1.1. 函数参数",
-        "slug": "_1-1-1-函数参数",
-        "children": []
-      }
-    ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/2-%E5%8F%82%E6%95%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.1.1. 函数返回值",
-        "slug": "_1-1-1-函数返回值",
-        "children": []
-      }
-    ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/3-%E8%BF%94%E5%9B%9E%E5%80%BC.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. 匿名函数",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.1.1. 匿名函数",
-        "slug": "_1-1-1-匿名函数",
-        "children": []
-      }
-    ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/4-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1. 闭包、递归",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.1.1. 闭包详解",
-        "slug": "_1-1-1-闭包详解",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "1.1.2. Go的闭包",
-        "slug": "_1-1-2-go的闭包",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "1.1.3. Go 语言递归函数",
-        "slug": "_1-1-3-go-语言递归函数",
-        "children": [
-          {
-            "level": 4,
-            "title": "数字阶乘",
-            "slug": "数字阶乘",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "title": "1.1.4. 斐波那契数列(Fibonacci)",
-        "slug": "_1-1-4-斐波那契数列-fibonacci",
-        "children": []
-      }
-    ],
-    "path": "/back/go/4-%E5%87%BD%E6%95%B0/5-%E9%97%AD%E5%8C%85,%E9%80%92%E5%BD%92.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [
       {
@@ -2422,6 +2561,107 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "1. 函数定义",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. golang函数特点：",
+        "slug": "_1-1-1-golang函数特点",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.1.2. 函数声明：",
+        "slug": "_1-1-2-函数声明",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/1-%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 参数",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 函数参数",
+        "slug": "_1-1-1-函数参数",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/2-%E5%8F%82%E6%95%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 函数返回值",
+        "slug": "_1-1-1-函数返回值",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/3-%E8%BF%94%E5%9B%9E%E5%80%BC.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 匿名函数",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 匿名函数",
+        "slug": "_1-1-1-匿名函数",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/4-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1. 闭包、递归",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.1.1. 闭包详解",
+        "slug": "_1-1-1-闭包详解",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.1.2. Go的闭包",
+        "slug": "_1-1-2-go的闭包",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1.1.3. Go 语言递归函数",
+        "slug": "_1-1-3-go-语言递归函数",
+        "children": [
+          {
+            "level": 4,
+            "title": "数字阶乘",
+            "slug": "数字阶乘",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "title": "1.1.4. 斐波那契数列(Fibonacci)",
+        "slug": "_1-1-4-斐波那契数列-fibonacci",
+        "children": []
+      }
+    ],
+    "path": "/back/go/4-%E5%87%BD%E6%95%B0/5-%E9%97%AD%E5%8C%85,%E9%80%92%E5%BD%92.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [
       {
@@ -2502,6 +2742,13 @@ export const searchIndex = [
       }
     ],
     "path": "/frontend/cocos/2D/%E6%8C%96%E6%B4%9E.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "代码雨",
+    "headers": [],
+    "path": "/frontend/html/example/%E4%BB%A3%E7%A0%81%E9%9B%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },

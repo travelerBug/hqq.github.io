@@ -5,6 +5,13 @@ export const siteData = {
   "description": "学习笔记",
   "head": [
     [
+      "meta",
+      {
+        "name": "referrer",
+        "content": "no-referrer"
+      }
+    ],
+    [
       "link",
       {
         "rel": "icon",

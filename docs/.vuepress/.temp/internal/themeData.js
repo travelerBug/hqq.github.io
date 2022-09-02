@@ -65,6 +65,10 @@ export const themeData = {
         {
           "text": "Cocos ceator",
           "link": "/frontend/cocos"
+        },
+        {
+          "text": "Html",
+          "link": "/frontend/html"
         }
       ]
     },
@@ -88,6 +92,10 @@ export const themeData = {
         {
           "text": "Typora",
           "link": "/tools/typora"
+        },
+        {
+          "text": "vscode",
+          "link": "/tools/vscode"
         }
       ]
     }
@@ -275,18 +283,31 @@ export const themeData = {
             "collapsible": true,
             "children": [
               {
-                "text": "挖洞.assets",
-                "icon": "note",
-                "collapsible": true,
-                "children": []
-              },
-              {
                 "text": "挖洞.md",
                 "link": "/frontend/cocos/2D/挖洞.md"
               },
               {
                 "text": "Graphics绘图.md",
                 "link": "/frontend/cocos/2D/Graphics绘图.md"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/frontend/html": [
+      {
+        "text": "html",
+        "icon": "note",
+        "children": [
+          {
+            "text": "example",
+            "icon": "note",
+            "collapsible": true,
+            "children": [
+              {
+                "text": "代码雨.md",
+                "link": "/frontend/html/example/代码雨.md"
               }
             ]
           }
@@ -309,6 +330,35 @@ export const themeData = {
           {
             "text": "3-简单语法.md",
             "link": "/tools/typora/3-简单语法.md"
+          }
+        ]
+      }
+    ],
+    "/tools/vscode": [
+      {
+        "text": "vscode",
+        "icon": "note",
+        "children": [
+          "",
+          {
+            "text": "主题类插件.md",
+            "link": "/tools/vscode/主题类插件.md"
+          },
+          {
+            "text": "前端常用插件.md",
+            "link": "/tools/vscode/前端常用插件.md"
+          },
+          {
+            "text": "图片编辑.md",
+            "link": "/tools/vscode/图片编辑.md"
+          },
+          {
+            "text": "常用插件.md",
+            "link": "/tools/vscode/常用插件.md"
+          },
+          {
+            "text": "画图插件.md",
+            "link": "/tools/vscode/画图插件.md"
           }
         ]
       }
