@@ -38,10 +38,10 @@ export default [
         text: "Typora",
         link: "/tools/typora",
       }
-      //, {
-      //   text: "Node",
-      //   link: "/tools/node",
-      // }
+      , {
+        text: "vscode",
+        link: "/tools/vscode",
+      }
     ]
   },
 

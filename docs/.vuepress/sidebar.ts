@@ -34,6 +34,14 @@ export default {
       children: getContent("/tools/typora/")
     }
   ],
+  "/tools/vscode": [
+    {
+      text: "vscode",
+      icon: "note",
+      // prefix: "/frontend/vue/",
+      children: getContent("/tools/vscode/")
+    },
+  ],
 }
 
 // export default sidebar([
