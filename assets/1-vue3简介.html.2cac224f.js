@@ -1,1 +1,0 @@
-import{_ as e,o as _,c}from"./app.e743ea34.js";const r={};function t(o,a){return _(),c("div")}var s=e(r,[["render",t],["__file","1-vue3\u7B80\u4ECB.html.vue"]]);export{s as default};
