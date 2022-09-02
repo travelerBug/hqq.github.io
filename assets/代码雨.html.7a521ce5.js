@@ -1,0 +1,1 @@
+const e={key:"v-eaf1519c",path:"/frontend/html/example/%E4%BB%A3%E7%A0%81%E9%9B%A8.html",title:"\u4EE3\u7801\u96E8",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1662132462e3},readingTime:{minutes:2,words:207},filePathRelative:"frontend/html/example/\u4EE3\u7801\u96E8.md"};export{e as data};
