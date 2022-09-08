@@ -7,20 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "前端笔记",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
-    "path": "/frontend/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "cocos笔记",
     "headers": [
       {
@@ -31,6 +17,34 @@ export const searchIndex = [
       }
     ],
     "path": "/graphics/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "docs",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/document/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前端笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/frontend/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -922,6 +936,69 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "多边形",
+    "headers": [],
+    "path": "/graphics/polygon/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "向量",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/graphics/vector/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "向量点乘",
+    "headers": [
+      {
+        "level": 3,
+        "title": "几何意义",
+        "slug": "几何意义",
+        "children": []
+      }
+    ],
+    "path": "/graphics/vector/%E7%82%B9%E4%B9%98.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ClipperLib文档中文版",
+        "slug": "clipperlib文档中文版",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/document/ClipperDocCN/%E7%9B%AE%E5%BD%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "简介",
+    "headers": [],
+    "path": "/document/ClipperDocCN/%E7%AE%80%E4%BB%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "cocos笔记",
     "headers": [
       {
@@ -964,16 +1041,163 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "向量点乘",
+    "title": "使用PicGo配置七牛云图床",
     "headers": [
       {
-        "level": 3,
-        "title": "几何意义",
-        "slug": "几何意义",
+        "level": 2,
+        "title": "准备工作",
+        "slug": "准备工作",
+        "children": [
+          {
+            "level": 4,
+            "title": "1. 1 下载PicGo安装",
+            "slug": "_1-1-下载picgo安装",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.2 七牛云配置图床",
+            "slug": "_1-2-七牛云配置图床",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.3 注册账号",
+            "slug": "_1-3-注册账号",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.4 创建云存储空间",
+            "slug": "_1-4-创建云存储空间",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "1.5 给自己的域名添加二级域名",
+            "slug": "_1-5-给自己的域名添加二级域名",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/tools/typora/1-%E4%BD%BF%E7%94%A8pic%E9%85%8D%E7%BD%AE%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1.插入行间公式",
+    "headers": [],
+    "path": "/tools/typora/2-%E6%B7%BB%E5%8A%A0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "这是一级标题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、标题",
+        "slug": "一、标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "这是二级标题",
+        "slug": "这是二级标题",
+        "children": [
+          {
+            "level": 3,
+            "title": "这是三级标题",
+            "slug": "这是三级标题",
+            "children": [
+              {
+                "level": 4,
+                "title": "这是四级标题",
+                "slug": "这是四级标题",
+                "children": [
+                  {
+                    "level": 5,
+                    "title": "这是五级标题",
+                    "slug": "这是五级标题",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、字体",
+        "slug": "二、字体",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、引用",
+        "slug": "三、引用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、分割线",
+        "slug": "四、分割线",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、图片",
+        "slug": "五、图片",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、超链接",
+        "slug": "六、超链接",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、列表",
+        "slug": "七、列表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、表格",
+        "slug": "八、表格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、代码",
+        "slug": "九、代码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "十、流程图",
+        "slug": "十、流程图",
         "children": []
       }
     ],
-    "path": "/graphics/%E5%90%91%E9%87%8F/%E7%82%B9%E4%B9%98.html",
+    "path": "/tools/typora/3-%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "cocos笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/tools/typora/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1200,167 +1424,6 @@ export const searchIndex = [
       }
     ],
     "path": "/tools/vscode/%E7%94%BB%E5%9B%BE%E6%8F%92%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "使用PicGo配置七牛云图床",
-    "headers": [
-      {
-        "level": 2,
-        "title": "准备工作",
-        "slug": "准备工作",
-        "children": [
-          {
-            "level": 4,
-            "title": "1. 1 下载PicGo安装",
-            "slug": "_1-1-下载picgo安装",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "1.2 七牛云配置图床",
-            "slug": "_1-2-七牛云配置图床",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "1.3 注册账号",
-            "slug": "_1-3-注册账号",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "1.4 创建云存储空间",
-            "slug": "_1-4-创建云存储空间",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "1.5 给自己的域名添加二级域名",
-            "slug": "_1-5-给自己的域名添加二级域名",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/tools/typora/1-%E4%BD%BF%E7%94%A8pic%E9%85%8D%E7%BD%AE%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1.插入行间公式",
-    "headers": [],
-    "path": "/tools/typora/2-%E6%B7%BB%E5%8A%A0%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "这是一级标题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、标题",
-        "slug": "一、标题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "这是二级标题",
-        "slug": "这是二级标题",
-        "children": [
-          {
-            "level": 3,
-            "title": "这是三级标题",
-            "slug": "这是三级标题",
-            "children": [
-              {
-                "level": 4,
-                "title": "这是四级标题",
-                "slug": "这是四级标题",
-                "children": [
-                  {
-                    "level": 5,
-                    "title": "这是五级标题",
-                    "slug": "这是五级标题",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "二、字体",
-        "slug": "二、字体",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、引用",
-        "slug": "三、引用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、分割线",
-        "slug": "四、分割线",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、图片",
-        "slug": "五、图片",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、超链接",
-        "slug": "六、超链接",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、列表",
-        "slug": "七、列表",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "八、表格",
-        "slug": "八、表格",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九、代码",
-        "slug": "九、代码",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "十、流程图",
-        "slug": "十、流程图",
-        "children": []
-      }
-    ],
-    "path": "/tools/typora/3-%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "cocos笔记",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
-    "path": "/tools/typora/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2676,6 +2739,69 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "多边形计算",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper.js",
+        "slug": "clipper-js",
+        "children": []
+      }
+    ],
+    "path": "/graphics/polygon/Clipper/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/document/ClipperDocCN/clipperlib/clipperlib.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "docs",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "取整(Rounding)",
+        "slug": "取整-rounding",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/Rounding.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "预定义宏（Defines）",
+        "slug": "预定义宏-defines",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/%E9%A2%84%E5%AE%9A%E4%B9%89%E5%AE%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Graphics",
     "headers": [
       {
@@ -2749,6 +2875,818 @@ export const searchIndex = [
     "title": "代码雨",
     "headers": [],
     "path": "/frontend/html/example/%E4%BB%A3%E7%A0%81%E9%9B%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Area",
+        "slug": "area",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/Area.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "CleanPolygon",
+        "slug": "cleanpolygon",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/CleanPolygon.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "CleanPolygons",
+        "slug": "cleanpolygons",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/CleanPolygons.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClosedPathsFromPolyTree",
+        "slug": "closedpathsfrompolytree",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/ClosedPathsFromPolyTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "MinkowskiDiff",
+        "slug": "minkowskidiff",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/MinkowskiDiff.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "MinkowskiSum",
+        "slug": "minkowskisum",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/MinkowskiSum.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "OpenPathsFromPolyTree",
+        "slug": "openpathsfrompolytree",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/OpenPathsFromPolyTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Orientation",
+        "slug": "orientation",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/Orientation.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PointInPolygon",
+        "slug": "pointinpolygon",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/PointInPolygon.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyTreeToPaths",
+        "slug": "polytreetopaths",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/PolyTreeToPaths.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ReversePath",
+        "slug": "reversepath",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/ReversePath.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ReversePath",
+        "slug": "reversepath",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/ReversePaths.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "SimplifyPolygon",
+        "slug": "simplifypolygon",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/SimplifyPolygon.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "SimplifyPolygons",
+        "slug": "simplifypolygons",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/functions/SimplifyPolygons.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "cInt",
+        "slug": "cint",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/cInt.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipType",
+        "slug": "cliptype",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/ClipType.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "EndType",
+        "slug": "endtype",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/EndType.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "InitOptions",
+        "slug": "initoptions",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/InitOptions.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "IntPoint",
+        "slug": "intpoint",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/IntPoint.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "IntRect",
+        "slug": "intrect",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/IntRect.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "JoinType",
+        "slug": "jointype",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/JoinType.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Path",
+        "slug": "path",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/Path.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Paths",
+        "slug": "paths",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/Paths.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyFillType",
+        "slug": "polyfilltype",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/PolyFillType.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyType",
+        "slug": "polytype",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/PolyType.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ZFillFuncition",
+        "slug": "zfillfuncition",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/types/ZFillFunction.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper.Constructor",
+        "slug": "clipper-constructor",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.Constructor.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper.Execute",
+        "slug": "clipper-execute",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.Execute.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper",
+        "slug": "clipper",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper.PreserveCollinear",
+        "slug": "clipper-preservecollinear",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.PreserveCollinear.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper.ReverseSolution",
+        "slug": "clipper-reversesolution",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.ReverseSolution.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper.StrictlySimple",
+        "slug": "clipper-strictlysimple",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.StrictlySimple.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Clipper.ZFillFunction",
+        "slug": "clipper-zfillfunction",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.ZFillFunction.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset.AddPath",
+        "slug": "clipperoffset-addpath",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.AddPath.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset.AddPaths",
+        "slug": "clipperoffset-addpaths",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.AddPaths.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset.ArcTolearance",
+        "slug": "clipperoffset-arctolearance",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.ArcTolerance.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset.Clear",
+        "slug": "clipperoffset-clear",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.Clear.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset.Constructor",
+        "slug": "clipperoffset-constructor",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.Constructor.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset.Execute",
+        "slug": "clipperoffset-execute",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.Execute.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset",
+        "slug": "clipperoffset",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperOffset.MiterLimit",
+        "slug": "clipperoffset-miterlimit",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.MiterLimit.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode.ChildCount",
+        "slug": "polynode-childcount",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.ChildCount.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode.Childs",
+        "slug": "polynode-childs",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.Childs.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode.Contour",
+        "slug": "polynode-contour",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.Contour.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode.GetNext",
+        "slug": "polynode-getnext",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.GetNext.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode.IsHole",
+        "slug": "polynode-ishole",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.IsHole.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode.IsOpen",
+        "slug": "polynode-isopen",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.IsOpen.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode",
+        "slug": "polynode",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyNode.Parent",
+        "slug": "polynode-parent",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.Parent.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperBase.AddPath",
+        "slug": "clipperbase-addpath",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.AddPath.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperBase.AddPaths",
+        "slug": "clipperbase-addpaths",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.AddPaths.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperBase.Clear",
+        "slug": "clipperbase-clear",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.Clear.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperBase.GetBounds",
+        "slug": "clipperbase-getbounds",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.GetBounds.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "ClipperBase",
+        "slug": "clipperbase",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyTree.Clear",
+        "slug": "polytree-clear",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.Clear.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyTree.GetFirst",
+        "slug": "polytree-getfirst",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.GetFirst.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyTree",
+        "slug": "polytree",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "PolyTree.Total",
+        "slug": "polytree-total",
+        "children": []
+      }
+    ],
+    "path": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.Total.html",
     "pathLocale": "/",
     "extraFields": []
   },

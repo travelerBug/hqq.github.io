@@ -49,7 +49,32 @@ export default {
       children: getContent("/tools/vscode/")
     },
   ],
+  "/graphics/polygon": [
+    {
+      text: "多边形",
+      icon: "note",
+      // prefix: "/frontend/vue/",
+      children: getContent("/graphics/polygon/")
+    },
+  ],
+  "/graphics/vector": [
+    {
+      text: "向量",
+      icon: "note",
+      // prefix: "/frontend/vue/",
+      children: getContent("/graphics/vector/")
+    },
+  ],
+  "/document/ClipperDocCN": [
+    {
+      text: "ClipperDocCN",
+      icon: "note",
+      // prefix: "/frontend/vue/",
+      children: getContent("/document/ClipperDocCN/")
+    },
+  ],
 }
+console.log(getContent("/graphics/polygon/"));
 
 // export default sidebar([
 

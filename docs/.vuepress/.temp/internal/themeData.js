@@ -98,6 +98,30 @@ export const themeData = {
           "link": "/tools/vscode"
         }
       ]
+    },
+    {
+      "text": "图形学",
+      "prefix": "/graphics/",
+      "children": [
+        {
+          "text": "多边形计算相关",
+          "link": "/graphics/polygon"
+        },
+        {
+          "text": "向量相关",
+          "link": "/graphics/vector"
+        }
+      ]
+    },
+    {
+      "text": "第三方文档",
+      "prefix": "/document/",
+      "children": [
+        {
+          "text": "ClipperDocCN",
+          "link": "/document/ClipperDocCN"
+        }
+      ]
     }
   ],
   "sidebar": {
@@ -359,6 +383,358 @@ export const themeData = {
           {
             "text": "画图插件.md",
             "link": "/tools/vscode/画图插件.md"
+          }
+        ]
+      }
+    ],
+    "/graphics/polygon": [
+      {
+        "text": "多边形",
+        "icon": "note",
+        "children": [
+          {
+            "text": "Clipper",
+            "icon": "note",
+            "collapsible": true,
+            "children": [
+              ""
+            ]
+          }
+        ]
+      }
+    ],
+    "/graphics/vector": [
+      {
+        "text": "向量",
+        "icon": "note",
+        "children": [
+          "",
+          {
+            "text": "点乘.md",
+            "link": "/graphics/vector/点乘.md"
+          }
+        ]
+      }
+    ],
+    "/document/ClipperDocCN": [
+      {
+        "text": "ClipperDocCN",
+        "icon": "note",
+        "children": [
+          {
+            "text": "clipperlib",
+            "icon": "note",
+            "collapsible": true,
+            "children": [
+              {
+                "text": "预定义宏.md",
+                "link": "/document/ClipperDocCN/clipperlib/预定义宏.md"
+              },
+              {
+                "text": "classes",
+                "icon": "note",
+                "collapsible": true,
+                "children": [
+                  {
+                    "text": "Clipper",
+                    "icon": "note",
+                    "collapsible": true,
+                    "children": [
+                      {
+                        "text": "Clipper.Constructor.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.Constructor.md"
+                      },
+                      {
+                        "text": "Clipper.Execute.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.Execute.md"
+                      },
+                      {
+                        "text": "Clipper.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.md"
+                      },
+                      {
+                        "text": "Clipper.PreserveCollinear.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.PreserveCollinear.md"
+                      },
+                      {
+                        "text": "Clipper.ReverseSolution.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.ReverseSolution.md"
+                      },
+                      {
+                        "text": "Clipper.StrictlySimple.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.StrictlySimple.md"
+                      },
+                      {
+                        "text": "Clipper.ZFillFunction.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.ZFillFunction.md"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "ClipperBase",
+                    "icon": "note",
+                    "collapsible": true,
+                    "children": [
+                      {
+                        "text": "ClipperBase.AddPath.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.AddPath.md"
+                      },
+                      {
+                        "text": "ClipperBase.AddPaths.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.AddPaths.md"
+                      },
+                      {
+                        "text": "ClipperBase.Clear.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.Clear.md"
+                      },
+                      {
+                        "text": "ClipperBase.GetBounds.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.GetBounds.md"
+                      },
+                      {
+                        "text": "ClipperBase.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperBase/ClipperBase.md"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "ClipperOffset",
+                    "icon": "note",
+                    "collapsible": true,
+                    "children": [
+                      {
+                        "text": "ClipperOffset.AddPath.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.AddPath.md"
+                      },
+                      {
+                        "text": "ClipperOffset.AddPaths.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.AddPaths.md"
+                      },
+                      {
+                        "text": "ClipperOffset.ArcTolerance.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.ArcTolerance.md"
+                      },
+                      {
+                        "text": "ClipperOffset.Clear.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.Clear.md"
+                      },
+                      {
+                        "text": "ClipperOffset.Constructor.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.Constructor.md"
+                      },
+                      {
+                        "text": "ClipperOffset.Execute.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.Execute.md"
+                      },
+                      {
+                        "text": "ClipperOffset.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.md"
+                      },
+                      {
+                        "text": "ClipperOffset.MiterLimit.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/ClipperOffset/ClipperOffset.MiterLimit.md"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "PolyNode",
+                    "icon": "note",
+                    "collapsible": true,
+                    "children": [
+                      {
+                        "text": "PolyNode.ChildCount.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.ChildCount.md"
+                      },
+                      {
+                        "text": "PolyNode.Childs.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.Childs.md"
+                      },
+                      {
+                        "text": "PolyNode.Contour.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.Contour.md"
+                      },
+                      {
+                        "text": "PolyNode.GetNext.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.GetNext.md"
+                      },
+                      {
+                        "text": "PolyNode.IsHole.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.IsHole.md"
+                      },
+                      {
+                        "text": "PolyNode.IsOpen.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.IsOpen.md"
+                      },
+                      {
+                        "text": "PolyNode.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.md"
+                      },
+                      {
+                        "text": "PolyNode.Parent.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.Parent.md"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "PolyTree",
+                    "icon": "note",
+                    "collapsible": true,
+                    "children": [
+                      {
+                        "text": "PolyTree.Clear.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.Clear.md"
+                      },
+                      {
+                        "text": "PolyTree.GetFirst.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.GetFirst.md"
+                      },
+                      {
+                        "text": "PolyTree.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.md"
+                      },
+                      {
+                        "text": "PolyTree.Total.md",
+                        "link": "/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.Total.md"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "clipperlib.md",
+                "link": "/document/ClipperDocCN/clipperlib/clipperlib.md"
+              },
+              {
+                "text": "functions",
+                "icon": "note",
+                "collapsible": true,
+                "children": [
+                  {
+                    "text": "Area.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/Area.md"
+                  },
+                  {
+                    "text": "CleanPolygon.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/CleanPolygon.md"
+                  },
+                  {
+                    "text": "CleanPolygons.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/CleanPolygons.md"
+                  },
+                  {
+                    "text": "ClosedPathsFromPolyTree.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/ClosedPathsFromPolyTree.md"
+                  },
+                  {
+                    "text": "MinkowskiDiff.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/MinkowskiDiff.md"
+                  },
+                  {
+                    "text": "MinkowskiSum.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/MinkowskiSum.md"
+                  },
+                  {
+                    "text": "OpenPathsFromPolyTree.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/OpenPathsFromPolyTree.md"
+                  },
+                  {
+                    "text": "Orientation.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/Orientation.md"
+                  },
+                  {
+                    "text": "PointInPolygon.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/PointInPolygon.md"
+                  },
+                  {
+                    "text": "PolyTreeToPaths.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/PolyTreeToPaths.md"
+                  },
+                  {
+                    "text": "ReversePath.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/ReversePath.md"
+                  },
+                  {
+                    "text": "ReversePaths.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/ReversePaths.md"
+                  },
+                  {
+                    "text": "SimplifyPolygon.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/SimplifyPolygon.md"
+                  },
+                  {
+                    "text": "SimplifyPolygons.md",
+                    "link": "/document/ClipperDocCN/clipperlib/functions/SimplifyPolygons.md"
+                  }
+                ]
+              },
+              {
+                "text": "Rounding.md",
+                "link": "/document/ClipperDocCN/clipperlib/Rounding.md"
+              },
+              {
+                "text": "types",
+                "icon": "note",
+                "collapsible": true,
+                "children": [
+                  {
+                    "text": "cInt.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/cInt.md"
+                  },
+                  {
+                    "text": "ClipType.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/ClipType.md"
+                  },
+                  {
+                    "text": "EndType.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/EndType.md"
+                  },
+                  {
+                    "text": "InitOptions.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/InitOptions.md"
+                  },
+                  {
+                    "text": "IntPoint.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/IntPoint.md"
+                  },
+                  {
+                    "text": "IntRect.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/IntRect.md"
+                  },
+                  {
+                    "text": "JoinType.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/JoinType.md"
+                  },
+                  {
+                    "text": "Path.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/Path.md"
+                  },
+                  {
+                    "text": "Paths.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/Paths.md"
+                  },
+                  {
+                    "text": "PolyFillType.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/PolyFillType.md"
+                  },
+                  {
+                    "text": "PolyType.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/PolyType.md"
+                  },
+                  {
+                    "text": "ZFillFunction.md",
+                    "link": "/document/ClipperDocCN/clipperlib/types/ZFillFunction.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "目录.md",
+            "link": "/document/ClipperDocCN/目录.md"
+          },
+          {
+            "text": "简介.md",
+            "link": "/document/ClipperDocCN/简介.md"
           }
         ]
       }

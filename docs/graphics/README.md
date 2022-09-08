@@ -13,10 +13,6 @@ category:
     \vec{a}* \vec{b}>0
    $$
 
-   
-
-
-
 $$ \vec{a}*\vec{b} $$ 
 
 ![image-20220831224744833](https://downloadflies.com/blog-img/image-20220831224744833.png)
