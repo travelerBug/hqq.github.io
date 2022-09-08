@@ -1,0 +1,1 @@
+const e={key:"v-c8df6c0a",path:"/document/ClipperDocCN/clipperlib/functions/CleanPolygon.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"CleanPolygon",slug:"cleanpolygon",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:2,words:285},filePathRelative:"document/ClipperDocCN/clipperlib/functions/CleanPolygon.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-4900ab64",path:"/document/ClipperDocCN/clipperlib/functions/CleanPolygons.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"CleanPolygons",slug:"cleanpolygons",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:2,words:285},filePathRelative:"document/ClipperDocCN/clipperlib/functions/CleanPolygons.md"};export{e as data};

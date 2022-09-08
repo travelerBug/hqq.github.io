@@ -1,0 +1,1 @@
+const e={key:"v-ad1d42b2",path:"/tools/vscode/%E7%94%BB%E5%9B%BE%E6%8F%92%E4%BB%B6.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u753B\u677F\u4F5C\u56FE",slug:"\u753B\u677F\u4F5C\u56FE",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:1,words:50},filePathRelative:"tools/vscode/\u753B\u56FE\u63D2\u4EF6.md"};export{e as data};

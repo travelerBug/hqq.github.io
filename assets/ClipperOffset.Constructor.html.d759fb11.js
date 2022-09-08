@@ -1,0 +1,6 @@
+import{_ as t,o as r,c as o,a as e,b as i}from"./app.924ef5e2.js";const n={},c=e("h3",{id:"clipperoffset-constructor",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#clipperoffset-constructor","aria-hidden":"true"},"#"),i(),e("strong",null,"ClipperOffset.Constructor")],-1),s=e("div",{class:"language-text ext-text"},[e("pre",{class:"language-text"},[e("code",null,`Del.\xBB constructor Create(MiterLimit: Double = 2; RoundPrecision: Double = 0.25);
+
+C++ \xBB ClipperOffset( double miterLimit = 2.0, double roundPrecision = 0.25);
+
+C#  \xBB public ClipperOffset( double miterLimit = 2.0, double roundPrecision = 0.25);
+`)])],-1),l=e("p",null,"\u6784\u9020\u51FD\u6570\u5305\u542B\u4E86\u4E24\u4E2A\u53EF\u9009\u7684\u53C2\u6570\uFF1AMiterLimit\u548CArcTolerance\uFF0C\u8FD9\u4E24\u4E2A\u53C2\u6570\u548C\u5176\u540C\u540D\u7684\u5C5E\u6027\u7684\u542B\u4E49\u662F\u76F8\u540C\u7684\u3002MiterLimit\u53EA\u6709\u5728JoinType\u662FjtMiter\u7684\u65F6\u5019\u624D\u542F\u7528\uFF0CArcTolerance\u53EA\u6709\u5728JoinType\u662FjtRound\u6216\u8005\u5F53EndType\u662F\u5F00\u653E\u5F0F\u8F6E\u5ED3\u7684\u65F6\u5019\u624D\u6709\u6548\uFF1B",-1),a=[c,s,l];function u(d,p){return r(),o("div",null,a)}var _=t(n,[["render",u],["__file","ClipperOffset.Constructor.html.vue"]]);export{_ as default};

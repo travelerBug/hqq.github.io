@@ -1,0 +1,6 @@
+import{_ as r,o as l,c as o,a as e,b as a}from"./app.924ef5e2.js";const n={},s=e("h3",{id:"clipper-preservecollinear",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#clipper-preservecollinear","aria-hidden":"true"},"#"),a(),e("strong",null,"Clipper.PreserveCollinear")],-1),t=e("div",{class:"language-text ext-text"},[e("pre",{class:"language-text"},[e("code",null,`Del.\xBB property PreserveCollinear: boolean; override;
+
+C++ \xBB void PreserveCollinear(bool value);
+
+C#  \xBB public bool PreserveCollinear { get {} set {} };
+`)])],-1),i=e("p",null,"\u9ED8\u8BA4\u7684\uFF0C\u5F53\u8F93\u5165\u7684\u88AB\u88C1\u526A\u548C\u88C1\u526A\u591A\u8FB9\u5F62\u7684\u5185\u5BB9\u4E2D\u4E09\u4E2A\u6216\u8005\u66F4\u591A\u7684\u70B9\u662F\u5171\u7EBF\u7684\uFF0CClipper\u5BF9\u8C61\u4F1A\u5728\u8FDB\u884C\u5E03\u5C14\u8FD0\u7B97\u4E4B\u524D\u5BF9\u591A\u4F59\u7684\u5171\u7EBF\u70B9\u8FDB\u884C\u5220\u9664\uFF1B\u5F53\u8BBE\u5B9APreserveCollinear\u5C5E\u6027\u9632\u6B62\u4E86\u8FD9\u79CD\u884C\u4E3A\uFF0C\u6765\u5141\u8BB8\u5171\u7EBF\u7684\u70B9\u7684\u60C5\u51B5\u51FA\u73B0\u5728\u7ED3\u679C\u5F53\u4E2D\uFF1B",-1),c=[s,t,i];function p(_,d){return l(),o("div",null,c)}var u=r(n,[["render",p],["__file","Clipper.PreserveCollinear.html.vue"]]);export{u as default};

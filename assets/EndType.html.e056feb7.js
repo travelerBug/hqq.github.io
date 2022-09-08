@@ -1,0 +1,1 @@
+const e={key:"v-c78d32da",path:"/document/ClipperDocCN/clipperlib/types/EndType.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"EndType",slug:"endtype",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:1,words:234},filePathRelative:"document/ClipperDocCN/clipperlib/types/EndType.md"};export{e as data};

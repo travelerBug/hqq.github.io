@@ -1,0 +1,1 @@
+const e={key:"v-16e071fa",path:"/document/ClipperDocCN/clipperlib/types/InitOptions.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"InitOptions",slug:"initoptions",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:1,words:33},filePathRelative:"document/ClipperDocCN/clipperlib/types/InitOptions.md"};export{e as data};

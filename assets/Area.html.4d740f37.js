@@ -1,0 +1,1 @@
+const e={key:"v-083e2ec2",path:"/document/ClipperDocCN/clipperlib/functions/Area.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Area",slug:"area",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:1,words:88},filePathRelative:"document/ClipperDocCN/clipperlib/functions/Area.md"};export{e as data};
