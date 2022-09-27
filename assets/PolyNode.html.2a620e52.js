@@ -1,1 +1,0 @@
-const e={key:"v-91058da8",path:"/document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"PolyNode",slug:"polynode",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:1,words:117},filePathRelative:"document/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.md"};export{e as data};

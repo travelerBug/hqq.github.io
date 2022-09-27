@@ -1,1 +1,0 @@
-const e={key:"v-5a78208c",path:"/document/ClipperDocCN/clipperlib/types/Paths.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Paths",slug:"paths",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:1,words:24},filePathRelative:"document/ClipperDocCN/clipperlib/types/Paths.md"};export{e as data};

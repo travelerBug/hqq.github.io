@@ -1,0 +1,1 @@
+const e={key:"v-73303956",path:"/back/go/3-go%E5%9F%BA%E7%A1%80/8-%E6%96%B9%E6%B3%95/4-%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",title:"1. \u8868\u8FBE\u5F0F",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1664262836e3},readingTime:{minutes:3,words:448},filePathRelative:"back/go/3-go\u57FA\u7840/8-\u65B9\u6CD5/4-\u8868\u8FBE\u5F0F.md"};export{e as data};

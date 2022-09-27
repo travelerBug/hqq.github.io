@@ -1,1 +1,0 @@
-const e={key:"v-2969e582",path:"/graphics/polygon/Clipper/",title:"\u591A\u8FB9\u5F62\u8BA1\u7B97",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Clipper.js",slug:"clipper-js",children:[]}],git:{updatedTime:166265303e4},readingTime:{minutes:1,words:14},filePathRelative:"graphics/polygon/Clipper/README.md"};export{e as data};

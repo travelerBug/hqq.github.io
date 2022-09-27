@@ -1,0 +1,1 @@
+const e={key:"v-f0e72660",path:"/document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Clipper",slug:"clipper",children:[]}],git:{updatedTime:1664262836e3},readingTime:{minutes:1,words:99},filePathRelative:"document/ClipperDocCN/clipperlib/classes/Clipper/Clipper.md"};export{e as data};

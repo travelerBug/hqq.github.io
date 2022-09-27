@@ -1,0 +1,1 @@
+const e={key:"v-5f4e3576",path:"/document/ClipperDocCN/clipperlib/functions/Orientation.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Orientation",slug:"orientation",children:[]}],git:{updatedTime:1664262836e3},readingTime:{minutes:2,words:317},filePathRelative:"document/ClipperDocCN/clipperlib/functions/Orientation.md"};export{e as data};

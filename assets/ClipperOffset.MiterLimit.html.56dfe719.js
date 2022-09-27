@@ -1,6 +1,0 @@
-import{_ as e,o as t,c as i,e as r}from"./app.924ef5e2.js";const l={},o=r(`<h3 id="clipperoffset-miterlimit" tabindex="-1"><a class="header-anchor" href="#clipperoffset-miterlimit" aria-hidden="true">#</a> <strong>ClipperOffset.MiterLimit</strong></h3><div class="language-text ext-text"><pre class="language-text"><code>Del.\xBB property MiterLimit: double; //read and write
-
-C++ \xBB double MiterLimit;
-
-C#  \xBB public double MiterLimit {get; set;}
-</code></pre></div><p>\u8BE5\u5C5E\u6027\u5305\u542B\u4E86\u4E00\u4E2A\u6BD4\u4F8B\u7CFB\u6570\uFF08= \u6700\u5927\u5BB9\u5FCD\u8DDD\u79BB/\u504F\u7F6E\u8DDD\u79BB\uFF09\uFF0C\u5F53\u5927\u4E8E\u6700\u5927\u5BB9\u5FCD\u8DDD\u79BB\u65F6\uFF0C\u5219\u4F1A\u4F7F\u75281*delta\u8DDD\u79BB\u6765\u8FDB\u884C\u9636\u6BB5\uFF1B <strong>\u9ED8\u8BA4\u7684MiterLimit\u503C\u5927\u5C0F\u662F2</strong>\uFF0C\u8FD9\u4E5F\u662F\u5141\u8BB8\u7684\u6700\u5C0FMiterLimit\u5927\u5C0F\u3002\u5982\u679C\u6CA1\u6709\u89C4\u5B9A\u5408\u7406\u7684MiterLimit\uFF0C\u5728\u90E8\u5206\u5C16\u9510\u7684\u62D0\u89D2\u5904\u5C31\u4F1A\u5F62\u6210\u957F\u7684\u7A81\u8D77\uFF1B\u4F8B\u5B50\u5982\u4E0B\u56FE\u6240\u793A <img src="https://downloadflies.com/blog-img/miterlimit.png" alt=""></p>`,3),s=[o];function a(n,c){return t(),i("div",null,s)}var m=e(l,[["render",a],["__file","ClipperOffset.MiterLimit.html.vue"]]);export{m as default};

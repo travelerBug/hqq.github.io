@@ -1,0 +1,1 @@
+const e={key:"v-7b4e1cac",path:"/document/ClipperDocCN/clipperlib/Rounding.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u53D6\u6574(Rounding)",slug:"\u53D6\u6574-rounding",children:[]}],git:{updatedTime:1664262836e3},readingTime:{minutes:3,words:584},filePathRelative:"document/ClipperDocCN/clipperlib/Rounding.md"};export{e as data};
