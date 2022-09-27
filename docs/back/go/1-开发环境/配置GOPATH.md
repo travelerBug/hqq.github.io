@@ -1,22 +1,22 @@
 # 1. 配置GOPATH
 
-`GOPATH`是一个环境变量，用来表明你写的`go`项目的存放路径
+`GOROOT`是安装 `go` 的路径
 
-`GOPATH`路径最好只设置一个，所有的项目代码都放到`GOPATH`的`src`目录下。
+`GOPATH`是我们定义的自己的工作空间。。
 
 Linux和Mac平台就参照上面配置环境变量的方式将自己的工作目录添加到环境变量中即可。 Windows平台按下面的步骤将（你的安装目录，例如：`D:\go`）添加到环境变量：
 
-1.我的电脑->属性->高级系统设置
+1.我的电脑->属性->高级系统设置->在环境变量中添加 `GOROOT`，值为 `go` 的安装目录：
 
-![配置GOPATH](https://downloadflies.com//blog-img/fileName/1.png)
+![image-20220914152631872](https://downloadflies.com/blog-img/image-20220914152631872.png)
 
-检查一下你的电脑里面是否存在`GOPATH`并且设置值为你要存`go`代码的目录
+2. 然后在环境变量 `PATH` 中添加 `go` 安装目录下的 `bin` 文件夹。
 
-![配置GOPATH](https://downloadflies.com//blog-img/fileName/2.png)
+![image-20220914152645355](https://downloadflies.com/blog-img/image-20220914152645355.png)
 
-同时在`path`里面添加`go`的安装目录和`GOPATH`目录
+3.接着添加一个环境变量 `GOPATH`，值为你自己希望的工作目录。
 
-![配置GOPATH](https://downloadflies.com//blog-img/fileName/3.png)
+![image-20220914152700268](https://downloadflies.com/blog-img/image-20220914152700268.png)
 
 ![新建工作目录](https://downloadflies.com//blog-img/fileName/4.png)
 
