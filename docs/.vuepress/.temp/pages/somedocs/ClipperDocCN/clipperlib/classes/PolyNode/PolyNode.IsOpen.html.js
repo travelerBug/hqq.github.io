@@ -1,0 +1,34 @@
+export const data = {
+  "key": "v-5c6aa1d0",
+  "path": "/somedocs/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.IsOpen.html",
+  "title": "",
+  "lang": "en-US",
+  "frontmatter": {},
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 3,
+      "title": "PolyNode.IsOpen",
+      "slug": "polynode-isopen",
+      "children": []
+    }
+  ],
+  "readingTime": {
+    "minutes": 1,
+    "words": 49
+  },
+  "filePathRelative": "somedocs/ClipperDocCN/clipperlib/classes/PolyNode/PolyNode.IsOpen.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

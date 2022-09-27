@@ -49,5 +49,30 @@ export default [
       }
     ]
   },
+  {
+    text: "图形学",
+    prefix: "/graphics/",
+    children: [
+      {
+        text: "多边形计算相关",
+        link: "/graphics/polygon",
+      },
+      {
+        text: "向量相关",
+        link: "/graphics/vector",
+      }
 
+    ]
+  },
+  {
+    text: "第三方文档",
+    prefix: "/document/",
+    children: [
+      {
+        text: "ClipperDocCN",
+        link: "/document/ClipperDocCN",
+      }
+
+    ]
+  },
 ]
