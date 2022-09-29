@@ -1,0 +1,1 @@
+const e={key:"v-16c7f360",path:"/graphics/polygon/",title:"\u591A\u8FB9\u5F62",lang:"en-US",frontmatter:{title:"\u591A\u8FB9\u5F62",index:!0,category:["\u4F7F\u7528\u6307\u5357"]},excerpt:"",headers:[],git:{updatedTime:166446601e4},filePathRelative:"graphics/polygon/README.md"};export{e as data};

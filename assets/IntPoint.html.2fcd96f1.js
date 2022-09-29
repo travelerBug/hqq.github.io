@@ -1,0 +1,1 @@
+const e={key:"v-5eb5fdae",path:"/document/ClipperDocCN/clipperlib/types/IntPoint.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"IntPoint",slug:"intpoint",children:[]}],git:{updatedTime:166446601e4},readingTime:{minutes:1,words:234},filePathRelative:"document/ClipperDocCN/clipperlib/types/IntPoint.md"};export{e as data};

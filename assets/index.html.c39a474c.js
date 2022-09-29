@@ -1,0 +1,1 @@
+const e={key:"v-36b1a79b",path:"/document/",title:"docs",lang:"en-US",frontmatter:{title:"docs",index:!1,icon:"creative",category:["\u4F7F\u7528\u6307\u5357"]},excerpt:"",headers:[{level:2,title:"\u76EE\u5F55",slug:"\u76EE\u5F55",children:[]}],git:{updatedTime:166446601e4},readingTime:{minutes:1,words:2},filePathRelative:"document/README.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-235e5d95",path:"/document/ClipperDocCN/clipperlib/types/IntRect.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"IntRect",slug:"intrect",children:[]}],git:{updatedTime:166446601e4},readingTime:{minutes:1,words:60},filePathRelative:"document/ClipperDocCN/clipperlib/types/IntRect.md"};export{e as data};

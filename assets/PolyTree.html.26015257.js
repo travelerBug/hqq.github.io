@@ -1,1 +1,0 @@
-const e={key:"v-0c9c59ac",path:"/document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"PolyTree",slug:"polytree",children:[]}],git:{updatedTime:1664262836e3},readingTime:{minutes:2,words:502},filePathRelative:"document/ClipperDocCN/clipperlib/classes/PolyTree/PolyTree.md"};export{e as data};

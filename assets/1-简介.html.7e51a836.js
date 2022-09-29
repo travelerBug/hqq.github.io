@@ -1,1 +1,0 @@
-const e={key:"v-c15c7226",path:"/back/go/5-%E5%8C%85%E7%AE%A1%E7%90%86/1-%E7%AE%80%E4%BB%8B.html",title:"\u4EC0\u4E48\u662FGo Modules?",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1664262836e3},readingTime:{minutes:4,words:843},filePathRelative:"back/go/5-\u5305\u7BA1\u7406/1-\u7B80\u4ECB.md"};export{e as data};

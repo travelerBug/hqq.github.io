@@ -1,0 +1,1 @@
+const e={key:"v-7ef24d41",path:"/document/ClipperDocCN/clipperlib/types/PolyFillType.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"PolyFillType",slug:"polyfilltype",children:[]}],git:{updatedTime:166446601e4},readingTime:{minutes:3,words:796},filePathRelative:"document/ClipperDocCN/clipperlib/types/PolyFillType.md"};export{e as data};

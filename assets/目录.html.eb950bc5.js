@@ -1,1 +1,0 @@
-const e={key:"v-55bd1e04",path:"/document/ClipperDocCN/%E7%9B%AE%E5%BD%95.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1664262836e3},readingTime:{minutes:2,words:319},filePathRelative:"document/ClipperDocCN/\u76EE\u5F55.md"};export{e as data};
